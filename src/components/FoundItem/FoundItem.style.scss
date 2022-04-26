@@ -1,0 +1,47 @@
+.found-item-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:1em 0.5em 1.2em 0.5em;
+    background-color: white;
+    font-size: 13px;
+    font-family: sst arabic;
+    border-radius:0.75em;
+    >img{
+        max-width: 32px;
+        max-height: 45px;
+    }
+    >.details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            text-align: right;
+            margin:0em;
+            margin-top: -9px;
+            margin-right: 1em;
+            >span{
+                font-family: verdana;
+                >span{
+                    font-weight: bolder;
+                }
+            }
+        }
+        p:last-child{
+            color:#49BBB3;
+        }
+    }
+    .total {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right:auto;
+       
+        >span>span{
+            font-weight: bolder;
+            font-family: verdana;
+        }
+        >img{
+            margin-top:-6px;
+        }
+    }
+}

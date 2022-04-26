@@ -1,0 +1,13 @@
+.meal-grid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding:0.5em 1.3em 0.5em 0.5em;
+    border-radius: 0.75em;
+    align-items: center;
+    .meal-item-container{
+        margin-left:0.5em;
+        margin-top:0.5em;
+    }
+}

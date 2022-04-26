@@ -1,0 +1,54 @@
+.customer-search-container{
+ margin: 1.5em 1em 1em 1em;   
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ position: relative;
+ .not-registered-person{
+    justify-content: center;
+    padding: 0.75em 0.5em 0.5em 0.5em;
+    border-radius: 1em;
+    background: -webkit-linear-gradient(#51B8FF,#0F78ED);
+    .question {
+        position: absolute;
+        top: 0.9em;
+        left: 1.25em;
+    }
+ }
+ .search-user {
+    justify-content: center;
+    padding: 0.75em 0.5em 0.5em 0.5em;
+    border-radius: 1em;
+    background: -webkit-linear-gradient(#F4C459, #FF9B04);
+    position: relative;
+    .person{
+        position: absolute;
+        top: 1.2em;
+        left: 1.1em;
+        width: 0.7em;
+    }
+ }
+ .icon {
+    height: 4em;
+    width:10vw;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background:white url('../../assets/gray-lens.png') no-repeat 8% 50%;
+ }
+ >div{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    input {
+        width:20%;
+        text-align: right;
+        padding-right:1em;
+    }
+    input::placeholder {
+        text-align: right;
+        font-size:16px;
+        margin-right:0.5em;
+        color:#b4b4b4
+    }
+ }
+}

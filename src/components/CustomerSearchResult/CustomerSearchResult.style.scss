@@ -1,0 +1,66 @@
+.customer-search-result-container{
+    .inbox{
+        height: 80vh;
+        display: flex;
+        background:transparent url('../../assets/emtpy-box.png') no-repeat 50% 35%;
+        align-items: center;
+        justify-content: center;
+        color:#68C7BF;
+        font-size: 23px;
+        font-weight: bolder;
+    }
+    .order{
+        display: flex;
+        flex-direction: column;
+        height: 82vh;
+    }
+    .found-items{
+        margin:0em 1em;
+      
+        background-color: #E8F8F7;
+        border-radius:1em;
+     
+        .found-items-body{
+            padding:0.5em;
+            background-color: #E8F8F7;
+            text-align: end;
+            .items-scroll{
+                max-height:37vh;
+                overflow-y:auto;
+            }
+            >p{
+                margin:10px 0px;
+            }
+            border-bottom-right-radius:1em ;
+            border-bottom-left-radius:1em;
+        }
+        .found-items-header{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            background: -webkit-linear-gradient( #235954,#139F93);
+            padding:1em 1em 1.5em 1em;
+            border-top-left-radius:1em;
+            border-top-right-radius:1em;
+            font-size: 13px;
+            text-align: end;
+            >div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                span:first-child{
+                    color:#9BDBD6;
+                    margin: 0px;
+                }
+                span:last-child{
+                    color:white;
+                    margin: 0px;
+                }
+            }
+        
+        }
+    }
+    .found-item-container{
+        margin-bottom: 0.5em;
+    }
+}

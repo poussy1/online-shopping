@@ -1,0 +1,23 @@
+.meal-filter-List-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding:2em 0.7em 0.25em 0.25em;
+    border-radius: 0.75em;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        margin-right:0.5em;
+    }
+    div:last-child{
+        background-color: #13a69a;
+        padding: 0.7em;
+        > span{
+            color:white !important;
+        }
+        > img {
+            margin:0px;
+        }
+       
+    }
+}
